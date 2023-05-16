@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Oils & Supplements</h1>
+    <div>
+        <p>I would encourage you to reach out for a consultation if you feel lost and would like some help before
+            purchasing supplements or oils!</p>
+        <p>Below are all of the quick links, scroll down for more info.</p>
+    </div>
+
+    <div class="parallax-doterra">
+        <header class="m-3">
+            <div class="container-doterra" style="width:1000px">
+                <h3 class="doterra">DOTERRA ESSENTIAL OILS</h3>
+            <p class="oil-text">Professional grade essential oils (not Amazon, not Whole Foods) can provide acute symptom relief,
+                and so I use, trust, and recommend doTERRA essential oils. They are the world leader in the
+                industry and the most tested, trusted brand available for consumer purchase. As a certified
+                essential oil specialist, I recommend certain oil protocols for my clients as natural support
+                while they are on their healing journey. We use them for things like:</p>
+            </div>
+            
+                <img src="{{ url_for('static', filename='images/symptoms.png' ) }}" alt="symptoms" class="symptoms" style="width: 1000px">
+        </header>
+    </div>
+
+        <div class="d-flex gap-2 mx-auto justify-content-evenly mt-3 mb-5">
+            <a href="#" class="btn px-4" role="button" target="_blank" rel="noopener noreferrer">YES, I WANT MY PROTOCOL CHEAT SHEET</a>
+            <a href="https://www.doterra.com/US/en/refer-a-friend" class="btn px-4" role="button" target="_blank"
+                rel="noopener noreferrer">YES, I WANT DOTERRA OILS AT WHOLESALE COST</a>
+        </div>
+
+        <hr>
+
+        <div class="container d-flex" id="supps">
+            <img src="{{ url_for('static', filename='images/CellCoreLOGO.jpeg' ) }}" alt="cellcore" height="200px">
+            <div class="container">
+                <h3>Cellcore</h3>
+                <p>To purchase from Cellcore, you need to register for an account under a practitioner with a code.</p>
+                <ul>
+                    <li>Click <a href="https://cellcore.com/" target="_blank" rel="noopener noreferrer">HERE</a> for the website</li>
+                    <li>Client Direct Code - If you are interested in opening a Cellcore account, please contact me about becoming a client.</li>
+                    <li>I provide my clients with the max allowable discount of 15% off and during sales, it becomes 25% off.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container d-flex" id="supps">
+            <img src="{{ url_for('static', filename='images/OrganoBlack.jpg' ) }}" alt="organo" height="200px" class="ms-4">
+            <div class="container" id="coffee">
+                <h3>Organo Mold-Free Coffee</h3>
+                <ul>
+                    <li>Why Organo? Mold is ubiquitous in coffee production, leading to high levels of mycotoxin exposures such as Ochratoxin A.</li>
+                    <li>Ochratoxin A causes liver, kidney, and immune system dysfunction</li>
+                    <li>Cleaning up your food and drink is an essential part of healing</li>
+                    <li>Organo coffee also contains immune-supportive reishi mushrooms</li>
+                    <li><a href="http://https://www.loom.com/share/af6bd4be00094d87890d33641de4f35b" target="_blank" rel="noopener noreferrer">How to set up a wholesale account</a> with Organo to get 33% off retail</li>
+                    <li><a href="https://essentialswithjane.myorganogold.com/en/" target="_blank" rel="noopener noreferrer">Click here to sign up!</a> Distributor number: 10002409874</li>
+                    <li>Start with ½ packet of Black coffee and move to the King coffee.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container d-flex" id="supps">
+            <img src="{{ url_for('static', filename='images/Fullscript-ICON.jpg' ) }}" alt="fullscript" height="200px">
+            <div class="container">
+                <h3>Fullscript</h3>
+                <ul>
+                    <li>
+                        To sign-up for my professional-grade supplement dispensary, click <a href="https://us.fullscript.com/welcome/jkim1675964724/signup?preview=true" target="_blank" rel="noopener noreferrer">HERE</a>. These are supplements I trust and use for my own family and all my clients. When you create an account your discount will automatically be set to 25%!
+                    </li>
+                </ul>
+            </div>
+        </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Tenor Sans', sans-serif;
+    background-color: #f8faf0;
+    height: 100%;
+}
+
+#container {
+    min-height: 100%;
+}
+
+#main {
+    overflow: auto;
+    padding-bottom: 150px;
+}
+
+p {
+    font-family: 'Ovo', serif;
+    font-size: large;
+}
+
+footer {
+    background: #45748C;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    word-spacing: 2px;
+    /* margin-top: -120px; */
+    padding: 10px;
+    /* clear: both; */
+}
+
+.disclaimer {
+    font-size: 12px;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+h1, .home {
+    font-family: 'Birthstone', cursive;
+    font-size: 60px;
+    color: #45748C;
+}
+
+.logo {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+}
+
+#wide-img {
+    padding: 10px;
+    box-shadow: 3px 7px 9px grey;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    background-color: #45748C;
+    color: #fff;
+}
+
+.navbar{
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    padding: 1em;
+    transition: all .2s;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.parallax-home {
+    background: url('images/Leaves1.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+}
+
+header {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    height: 100%;
+}
+
+.login {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 100%;
+}
+
+#header {
+    font-size: 60px;
+    color: black;
+}
+
+.parallax-window {
+    min-height: 500px;
+    background: transparent;
+}
+
+.parallax {
+    background: url('images/diffusedpinkfloral.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+    opacity: 0.5;
+}
+
+li {
+    font-size: 14px;
+}
+
+#gut_img {
+    max-height: 500px;
+    max-width: 100%;
+    margin-right: 25px;
+}
+
+.three-steps {
+    background-color: #bcc4ac;
+}
+
+#three {
+    background-color: #f8faf0;
+    border-radius: 10px;
+    padding-top: 15px;
+}
+
+#program {
+    overflow: auto;
+    height: 500px;
+}
+
+.btn {
+    color: black;
+    background-color: #bcc4ac;
+    padding: 10px;
+}
+
+.btn:hover, #btn-work:hover{
+    background-color: #d8b0ac;
+    color: white;
+    transition: all .2s;
+}
+
+#btn {
+    box-shadow: 10px 10px 30px grey;
+}
+
+.parallax-work {
+    background: url('images/flower.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 400px;
+    opacity: 0.5;
+    margin: 10px 0px;
+}
+
+.parallax-booking {
+    background: url('images/fig2.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+/* supps page */
+
+.parallax-doterra {
+    background: url('images/OnGuardFaded.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+.symptoms {
+    max-width: 100%;
+    max-height: auto;
+    margin-top: 10px;
+}
+
+#oils {
+    margin: 20px 50px 20px;
+    box-shadow: 20px 20px 50px #88838a;
+    max-width: 100%;
+    max-height: auto;
+}
+
+.oil-text {
+    margin: 20px 30px 20px 0px;
+    color: black;
+}
+
+.doterra { 
+    color: black;
+}
+
+.container-doterra {
+    background-color: #bcc4ac;
+    padding: 20px;
+    max-height: auto;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.card img {
+    height: 425px;
+}
+
+.small-icon {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -60px;
+    margin-bottom: 10px;
+    border: white solid 3px;
+}
+
+#booking-img {
+    margin: 10px;
+}
+
+#logo-footer {
+    height: 140px;
+}
+
+#supps {
+    width: auto;
+    max-height: 100%;
+    border: #343444 solid 2px;
+    padding: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 30px;
+    overflow: auto;
+}
+
+#btn-work {
+    background-color: #343444;
+    color: white;
+}
+
+#btn-booking {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#coffee {
+    margin-left: 35px;
+}
+
+.symptom-list {
+    list-style-type: none;
+}
+
+li {
+    font-size:medium;
+}
+
+h5 {
+    font-size:x-large;
+}
+
+#social{
+    background: none;
+    color: white;
+    border: none;
+}
+
+.testimony {
+    width: 250px;
+    margin-right: 25px;
+    box-shadow: 3px 7px 9px grey;
+}

@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+
+    <h1 class="text-center">Meet Jane!</h1>
+    <div class="clearfix">
+            <img src="{{ url_for('static', filename='images/FamilyPetals2023.jpg' ) }}" alt="Logo" class="col-md-6 float-md-start me-3" id="wide-img">
+            <p>Hello! Welcome, and thanks for stopping by. A bit about me! I'm a former PA turned functional health practitioner with a passion to help you find healing! Like many of us in this field, our own health challenges led us on this path to find a resolution to seemingly unanswerable issues. My painful health journey was no different. I found my health tanking at 43 with chronic fatigue, bloating, neurological symptoms like numbness, weakness in my extremities (dropping cans of soup, dragging my left leg), weight gain, horrible rashes, chronic sinus infections, severe brain fog, exhaustion. Some days I could barely form a complete sentence and most of the time, words escaped me.</p>
+            
+            <p>My search for healing through traditional medicine left me empty-handed as all my lab tests, full spinal MRIs, and NCS/EMGs returned “normal” and yet I knew something was seriously wrong and no one knew why. My Neurologist said she couldn't help me and sent me to physical therapy, and my physical therapist told me, “You have a neurological problem, go see your Neurologist.”</p>
+            
+            <p>So I turned to functional medicine.  With the help of a Practitioner, I found answers.  By (1) shifting my diet and cleaning up lifestyle habits, (2) optimizing gut and cell functioning and drainage with supplements, and (3) deep cleansing the GI tract, we were able to unravel the dysfunction, heal my leaky gut, resolve chronic skin issues (gone!), reverse the mold damage and brain fog, detox and cleanse my gut, restore my energy, and start feeling like me again. </p>
+            
+            <p>You never know what you've lost until your health is gone, and my painful journey lit a fire in me to be that intervention, that solution, for other people who are stuck in their health journey looking for answers. I learned a lot the hard way, but you don't have to. Let me be your guide and together we will help you resolve your chronic issues.</p>
+        </div>
+        <div class="p-3">
+        <h5>Credentials</h5>
+        <ul id="credentials">
+            <li>Master of Science in Health Sciences (MSHS) in Physician Assistant Studies, The George Washington University</li>
+            <li>Restorative Wellness Practitioner, Restorative Wellness Solutions</li>
+            <li>BS in Health and Exercise Science, Wake Forest University</li>
+            <li>Certified Essential Oil Specialist</li>
+        </ul>   
+    </div>
+</div>
+    <div class="parallax"></div>
+    <div class="container mt-5">
+        <h2 class="text-center">TESTIMONIALS</h2>
+        <div class="d-flex align-items-center justify-content-center row mt-3" >
+            <img src="{{ url_for('static', filename='images/ClientLove1.png' ) }}" alt="Logo" class="testimony col-md-6 float-md-start">
+            <img src="{{ url_for('static', filename='images/doterracustomerlove.png' ) }}" alt="Logo" class="testimony col-md-6 float-md-start">
+        </div>
+    </div>
+    
+    
+    
+    {% endblock %}

@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-center">Booking Page</h1>
+    <div class="clearfix">
+        <img src="{{ url_for('static', filename='images/Headshot2023.jpg' ) }}" alt="logo" class="col float-md-end mb-3" id="wide-img" style="width: 500px; height: auto;">
+
+        <p>
+            I only work with clients 1:1 who are completely committed to the process of healing and understand that bringing the body back into balance does not happen overnight and can sometimes take 6-12+ months. I believe that it is important for there to be a good fit between the two of us...some personalities and styles do not work well together and that is OK! &#128578
+        </p>
+        <p>
+            I also want to be upfront about the fact that I believe it is VERY hard to achieve optimal health without consuming at least some high-quality animal protein on a weekly basis. If you are vegan, vegetarian, or simply unwilling to eat some high-quality animal protein on a regular basis, we will not be a good fit working together.
+        </p>
+        <p>
+            If we do decide that we are a good fit, I want you to understand that I believe each and every client has their own individual needs.  Your protocols are created specifically for you in order to facilitate bringing your body back into balance so it can do the work of restoring health and balance.
+        </p>
+        <p>
+            Know that am 150% committed to helping you heal.  But by that same token, I need you to be fully committed as well: (1) self-motivated, (2) willing to make lifestyle and dietary changes, and (3) willing to take professional-grade supplements as part of your protocol.  If you are unwilling or unmotivated to take supplements and make significant changes to your diet and lifestyle, we will not be a good fit working together (i.e., cutting out gluten, switching your water, reducing wifi exposure, etc).
+        </p>
+    </div>
+</div>
+    <div class="parallax-booking">
+        <header class="m-3">
+            <div class="d-flex gap-3 mx-auto justify-content-around align-items-center">
+                <a href="https://app.biocanic.com/selfbooking/643219011ee1f801a20cb73d/?eventId=64382603b596d8017454b59a" class="btn px-3" role="button" target="_blank" rel="noopener noreferrer" id="btn-booking">APPLY FOR A 15-MINUTE DISCOVERY CALL</a>
+                <a href="https://app.biocanic.com/selfbooking/643219011ee1f801a20cb73d/?eventId=64346332aa187304811b3aa1" class="btn px-3" role="button" target="_blank" rel="noopener noreferrer" id="btn-booking">SCHEDULE YOUR IN-DEPTH CASE REVIEW</a>
+                <a href="https://app.biocanic.com/selfbooking/643219011ee1f801a20cb73d/?eventId=643c69299f466603de5b3225" class="btn px-3" role="button" target="_blank" rel="noopener noreferrer" id="btn-booking">FOLLOW-UP 30-MINUTE SESSION</a>
+            </div>
+        </header>
+        </div>
+    
+    {% endblock %}

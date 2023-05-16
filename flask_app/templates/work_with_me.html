@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h1 class="text-center">Private Gut Health Consulting</h1>
+    <div class="container">
+        <div>
+            <h3>First, why focus on Gut Health?</h3>
+            <div class="clearfix">
+                <img src="{{ url_for('static', filename='images/guthealthimpacts.png' ) }}" alt="What Your Gut Health Impacts" id="gut_img" class="col float-md-start">
+
+                <p>Why focus on gut health? Because your gut is your second brain. It is in a bidirectional relationship with your first brain. There's a two-way communication street between them, and for every 1 time your brain communicates with your gut, your gut communicates 9 times back.</p>
+                <p>What that means is everything that happens in your gut, both good and bad, directly impacts every other organ system in your body.  As the saying goes, if your gut ain't happy, ain't nobody happy!  If your gut is chronically inflamed from leaky gut, food sensitivities, overgrowth of unfriendly microbes, overuse of antibiotics, acid blockers, birth control pills, and anti-inflammatories like Advil, then trust me when I say your brain isn't functioning optimally either. And if your brain isn't functioning optimally, then neither is the rest of your body. &#128563</p>
+                <ul class="symptom-list">
+                    <li>&#128073 anxiety, depression, brain fog, headaches, migraines, allergies</li>
+                    <li>&#128073 skin rashes, acne, eczema</li>
+                    <li>&#128073 hormone imbalances, PMS, estrogen dominance, PCOS, painful cycles</li>
+                    <li>&#128073 weight gain/sluggish metabolism, aches & joint pain, food sensitivities, leaky gut</li>
+                    <li>&#128073 insomnia/sleep issues (Melatonin is 400x higher in the gut than in the pineal gland)</li>
+                    <li>&#128073 autoimmune, immune system, and thyroid issues</li>
+                </ul>
+                <p>These are just a few of the things impacted by your gut health!</p>
+                <p>So, the first healing priority of the body is always going to be: to heal the gut.</p>
+
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="parallax-work"></div>
+    <div class="container">
+        <div class="container">
+            <div class="three-steps mb-3">
+                <h3 class="p-4 text-center">3 STEPS TO A HEALTHY GUT</h3>
+                <div class="container text-center mt-3">
+                    <div class="row gap-2 p-4">
+                        <div class="col" id="three">
+                            <img src="{{ url_for('static', filename='images/Purple-fig.jpg' ) }}" alt="fig" class="small-icon">
+                            <h5>Step 1 - Apply for a 15-minute Discovery call with me</h5>
+                            <div>
+                                <p>We will review your current health concerns, and future goals, and see if we would be a good fit working together.</p>
+                            </div>
+                            
+                        </div>
+                        <div class="col" id="three">
+                            <img src="{{ url_for('static', filename='images/Pear.jpg' ) }}" alt="greenfruit" class="small-icon">
+                            <h5>Step 2 - In-Depth Case Review</h5>
+                            <div>
+                                <p>The next step, if the fit was right, would be to do an in-depth case review for 60-90 minutes.  I believe we need to see where you've been in order to properly move forward with the correct healing steps.  We'll dive deep into your nutrition, lifestyle habits, past medical history, and other options you've tried that weren't fully successful.  You'll receive initial steps to focus on immediately as well as future action items and a healing roadmap after this session, all tailored to your specific symptoms and challenges.</p>
+
+                            </div>
+                        </div>
+                        <div class="col" id="three">
+                            <img src="{{ url_for('static', filename='images/Orange.jpg' ) }}" alt="bloodorange" class="small-icon">
+                            <h5>Step 3 - Choose Your Program</h5>
+                            <div id="program">
+                                <p>Next, you'll decide if a 4-month gut cleanse or my 8-month total transformation program is right for you. <span class="font-weight-bold">The 4-month Gut Cleanse</span> addresses foundational dietary and lifestyle changes, opening blocked drainage pathways, supporting mitochondria/energy production and cellular health, and deep diving after one of the most common opportunistic pathogens that ruin your gut health and your immune system: parasites.  This is a great beginner program for people who really want to make significant improvements in their chronic symptoms and are willing to make dietary & lifestyle changes and take supplements.</p>
+                                <p><span class="font-weight-bold">The 8-month Total Transformation Program</span> includes everything in the 4-month program.  However, it also highlights the GI-MAP test and the MRT Food Sensitivity Test, both of which allow me to “test and not guess” to fine-tune protocols to you for the deepest level of healing.  This is right for you if you are ALL in and highly motivated to overhaul your health.   You must be willing and able to make significant shifts in your diet, your lifestyle, and your habits, rid your home of toxins, along with the resources (time, energy, finances) needed to make it all happen.  You'll also take professional-grade supplements to eradicate other opportunistic pathogens living in the gut and rebalance the gut microbiome.  This is a big commitment and I want you to know that up front. But with this program, you will get the results you want; and it's my honor to guide and support you every step of the way!</p>
+                                <p>*Please note, you can always start with the 4-month program and decide at the end of it if you want to continue on for another 4 months.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a class="btn mb-3 px-5" role="button" href="https://app.biocanic.com/selfbooking/643219011ee1f801a20cb73d/?eventId=64382603b596d8017454b59a" target="_blank" rel="noopener noreferrer" id="btn-work">APPLY HERE TO WORK WITH ME</a>
+                </div>
+            </div>
+        </div>
+    </div>
+            
+    
+    {% endblock %}
