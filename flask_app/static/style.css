@@ -57,6 +57,9 @@ h1, .home {
 #wide-img {
     padding: 10px;
     box-shadow: 3px 7px 9px grey;
+    max-width: 100%;
+    width: 700px;
+    height: auto;
 }
 
 .navbar .navbar-nav .nav-link:hover{
@@ -128,8 +131,9 @@ li {
 }
 
 #gut_img {
-    max-height: 500px;
+    width: 500px;
     max-width: 100%;
+    height: auto;
     margin-right: 25px;
 }
 
@@ -286,5 +290,13 @@ h5 {
 .testimony {
     width: 250px;
     margin-right: 25px;
-    box-shadow: 3px 7px 9px grey;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
 }
+
+.testimony:hover {
+    box-shadow: 3px 7px 9px lightgray;
+    transition: all .5s ease;
+}
+
