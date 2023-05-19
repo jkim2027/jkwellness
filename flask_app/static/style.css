@@ -300,3 +300,7 @@ h5 {
     transition: all .5s ease;
 }
 
+i {
+    pointer-events: none;
+}
+
